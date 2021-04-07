@@ -49,8 +49,9 @@ class Account:
 x=Account('Kirill')
 
 x.deposit(100)
+
+x.show()
+x.withdrow(20)
 x.show()
 
 x.show_history()
-
-x.__balanse=123
